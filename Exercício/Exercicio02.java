@@ -26,7 +26,7 @@ float bonus=100;
 
 
 float total=sala+bonus;
-System.out.print("O valor do bonus da pessoa somada com seu salário será de "+total+"");
+System.out.println("O valor do bonus da pessoa somada com seu salário será de "+total+"");
             
            
        
