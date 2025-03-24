@@ -8,24 +8,24 @@ public static void main(String[] args){
 
     
 
-        (Scanner horas = new Scanner(System.in)) {
+
         System.out.println("Escreva o número de horas trabalhadas no mês: ");
         Float hour = horas.nextFloat();
         
 
-        (Scanner sal = new Scanner(System.in)) {
+
             System.out.println("Escreva o salário por hora: ");
             Float sala = sal.nextFloat();
 
-        (Scanner filho = new Scanner(System.in)) {
+ 
             System.out.println("Escreva o número de filhos: ");
             Float fil = filho.nextFloat();
 
-            (Scanner tra = new Scanner(System.in)) {
+
                 System.out.println("Escreva quanto o funcionário já trabalhou em anos: ");
                 Float temp = tra.nextFloat();
                
-                (Scanner idade = new Scanner(System.in)) {
+
                     System.out.println("Escreva a idade: ");
                     Float id = idade.nextFloat();
 
@@ -58,8 +58,8 @@ System.out.print("O funcionário "+name+", tem um salário bruto de "+salbrut+",
 
 }      
 }      
-}
-}
-}
-}
-}
+
+
+
+
+
