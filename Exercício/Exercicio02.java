@@ -8,12 +8,12 @@ public static void main(String[] args){
 
     
 
-        (Scanner tempo = new Scanner(System.in)) {
+
         System.out.println("Escreva o número de anos trabalhados: ");
         Float time = tempo.nextFloat();
         
 
-        (Scanner sal = new Scanner(System.in)) {
+
             System.out.println("Escreva o salário: ");
             Float sala = sal.nextFloat();
 float bonus=100;
@@ -33,8 +33,8 @@ System.out.print("O valor do bonus da pessoa somada com seu salário será de "+
 
 }      
 }      
-}
-}
+
+
 
 
 
