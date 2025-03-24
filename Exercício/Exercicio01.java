@@ -2,32 +2,32 @@ import java.util.Scanner;
 
 public class Exercicio01{
 public static void main(String[] args){
-        Scanner nome = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Escreva o nome do funcionário: ");
-        String name = nome.nextLine();
+        String name = scanner.nextLine();
 
     
 
 
         System.out.println("Escreva o número de horas trabalhadas no mês: ");
-        Float hour = horas.nextFloat();
+        Float hour = scanner.nextFloat();
         
 
 
             System.out.println("Escreva o salário por hora: ");
-            Float sala = sal.nextFloat();
+            Float sala = scanner.nextFloat();
 
  
             System.out.println("Escreva o número de filhos: ");
-            Float fil = filho.nextFloat();
+            Float fil = scanner.nextFloat();
 
 
                 System.out.println("Escreva quanto o funcionário já trabalhou em anos: ");
-                Float temp = tra.nextFloat();
+                Float temp = scanner.nextFloat();
                
 
                     System.out.println("Escreva a idade: ");
-                    Float id = idade.nextFloat();
+                    Float id = scanner.nextFloat();
 
 float salbrut=(sala*hour);
 float inps=((salbrut/100)*(17/2));
