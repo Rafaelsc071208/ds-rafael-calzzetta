@@ -43,10 +43,10 @@ if (id>40){
     adic=(salbrut/100)*2;
 }
 if (temp>15){
-    adic=(salbrut/100)*7/2;
+    adic=(salbrut/100)*7.0/2.0;
 }
 if (temp<=15) if(temp>5) if(id>30){
-    adic=(salbrut/100)*3/2;
+    adic=(salbrut/100)*3.0/2.0;
 }
 
 float salfim = (salbrut-inps+adic+renda);
