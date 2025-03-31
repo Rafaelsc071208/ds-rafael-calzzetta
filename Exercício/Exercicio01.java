@@ -31,12 +31,12 @@ public static void main(String[] args){
 
 float salbrut=(sala*hour);
 float inps=((salbrut/100)*(17/2));
-float adic;
-float renda;
+float adic=0;
+float renda=0;
 if (salbrut>1500){
     renda=(salbrut/100)*15;
 }
-if (salbrut<1500) if(salbrut>500){
+if (salbrut<1500 && salbrut>500){
     renda=(salbrut/100)*8;
 }
 if (id>40){
@@ -45,7 +45,7 @@ if (id>40){
 if (temp>15){
     adic=(salbrut/100)*7.0/2.0;
 }
-if (temp<=15) if(temp>5) if(id>30){
+if (temp<=15 && temp>5 && id>30){
     adic=(salbrut/100)*3.0/2.0;
 }
 
