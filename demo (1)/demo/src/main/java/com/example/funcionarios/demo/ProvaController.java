@@ -2,8 +2,8 @@ package com.exemple.prova;
 import
 org.springframework.web.bind.annotation;
 import java.util.set;
-@restcontroller
-@requestmapping("/api/prova")
+@Restcontroller
+@Requestmapping("/api/prova")
 public class prova controller {
 private final FuncionarioService funcionarioService;
 public prova controller(FuncionarioService funcionarioService) {
@@ -13,14 +13,14 @@ this.funcionarioService = funcionarioService;
 public set <integer> listar() {
     return service .listar();
 }
-@postmapping("{/id}")
-public string adicionar(@pathvariable integer id) {
+@Postmapping("{/id}")
+public string adicionar(@Pathvariable integer id) {
     boolean removido = service remover(id);
     return adicionado ? "Funcionario "+id+" adicionado com sucesso" : "Falha ao adicionar funcionario";
 
 }
-@deletemapping("{/id}")
-public string remover(@pathvariable integer id) {
+@Deletemapping("{/id}")
+public string remover(@Pathvariable integer id) {
     boolean removido = service .remover(id);
     return removido ? "Funcionario "+id+" removido com sucesso" : "Falha ao remover funcionario";
 }
