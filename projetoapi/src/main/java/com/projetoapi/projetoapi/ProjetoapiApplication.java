@@ -1,13 +1,13 @@
-package com.example.prova;
+package com.projetoapi.projetoapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProvaApplication {
+public class ProjetoapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProvaApplication.class, args);
+		SpringApplication.run(ProjetoapiApplication.class, args);
 	}
 
 }
