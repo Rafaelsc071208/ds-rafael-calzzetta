@@ -1,6 +1,5 @@
-package com.projetoapi.projetoapi.service;
+package com.projetoapi.projetoapi;
 
-import com.projetoapi.projetoapi.model.Funcionario;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

@@ -1,7 +1,5 @@
-package com.projetoapi.projetoapi.controller;
+package com.projetoapi.projetoapi;
 
-import com.projetoapi.projetoapi.model.Funcionario;
-import com.projetoapi.projetoapi.service.FuncionarioService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

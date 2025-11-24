@@ -1,4 +1,4 @@
-package com.projetoapi.projetoapi.model;
+package com.projetoapi.projetoapi;
 
 public class Funcionario {
     private Integer id;
